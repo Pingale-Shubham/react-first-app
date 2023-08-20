@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import Greet from './components/greet';
+// import Wellcome from './components/Wellcome';
+// import Counter from './components/counter';
+// import Message from './components/Message';
+import './appStyle.css'
+import Details from './components/Details';
+import UserCondition from './components/UserCondition';
+// import Parentcomponent from './components/Methodasprops/Parentcomponent';
+// import EventBinding from './components/Event_component/EventBinding';
+// import EventClass from './components/Event_component/EventClass';
+// import EventClick from './components/Event_component/EventClick';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1>--------------------This is React 1st Project--------------------</h1>
+      
+    {/* <Wellcome /> */}
+    {/* <Greet name = "Shubham" city ="Dhule"></Greet> */}
+
+    {/* <Greet name="Shubham" courseName="MERN" /> */}
+
+    {/* <Wellcome name="Shubham" courseName="MERN" /> */}
+
+    {/* <Wellcome /> */}
+    {/* <Counter /> */}
+    {/* <Message /> */}
+    {/* <EventClick /> */}
+    {/* <EventClass /> */}
+    {/* <EventBinding /> */}
+    {/* <Parentcomponent /> */}
+    <Details />
+    <UserCondition />
     </div>
   );
 }
